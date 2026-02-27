@@ -1,5 +1,9 @@
-const clickBtn = document.getElementById("clickBtn");
+document.addEventListener("DOMContentLoaded", function () {
 
-clickBtn.addEventListener("click", () => {
-    alert("FOCUS WORK NOT PHONE!!");
+    const clickBtn = document.getElementById("clickBtn");
+
+    clickBtn.addEventListener("click", function () {
+        alert("FOCUS WORK NOT PHONE!!");
+    });
+
 });
